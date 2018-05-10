@@ -20,6 +20,7 @@ The input data includes moisture value from the nails and light value from the l
 The output data include the code and the light levels indicated on the Stick.
 
 ## Diagram
+![alt text](https://github.com/jamiecatt/p-and-e-final-project-spring-2018/blob/master/diagram.jpg)
 
 ## Challenges
 The most challenging part was trying to use a screen to display the monitored levels described above. We tried two screens - the first screen worked initially and was displaying correctly, but suddenly stopped working. Only the backlights for the second screen worked, yet there were no pixels showing up. Due to time constraints, we decided to use a Neopixel Stick instead to display the levels.
@@ -27,14 +28,18 @@ The most challenging part was trying to use a screen to display the monitored le
 The other challenging aspect was wiring everything together - the large amount of wires together quickly became confusing, and when problems arose, we weren't sure where the issue was. Some miswiring and a lack of a resistor led to our moisture sensors to be jumping and spiking when the nails were dry; however, with some help, we were able to fix it.
 
 ## Timeline
-Week 1: Write proposal
-Week 2: Wired up and figured out the code for moisture sensors
-Week 3: Tried to connect screens
-Week 4: Used Neopixel Stick and added a light sensor and switch, figured out the code
-Week 5: Present!
+* Week 1: Write proposal
+* Week 2: Wired up and figured out the code for moisture sensors
+* Week 3: Tried to connect screens
+* Week 4: Used Neopixel Stick and added a light sensor and switch, figured out the code
+* Week 5: Present!
 
-Completed Work
-Link To Photos
+##Completed Work
+Light Sensor 
+![alt text](https://github.com/jamiecatt/p-and-e-final-project-spring-2018/blob/master/lightpic.jpg)
+
+Moisture Sensor
+![alt text](https://github.com/jamiecatt/p-and-e-final-project-spring-2018/blob/master/moisturepic.jpg)
 
 ## References and Links
 
