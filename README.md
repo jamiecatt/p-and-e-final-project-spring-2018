@@ -1,39 +1,48 @@
-NB: You might find useful the [sample proposal](https://github.com/zamfi/cca-programming-electronics-fall-2017/blob/master/hw/sample-proposal.md) useful in completing this assignment!
+# Plant Monitoring Device
 
-# Your Project Title Here
-
-One-sentence summary of your project goes here. Then, make sure you have each of these sections completed:
+A device that can monitor the soil moisture and amount of light for a plant.
 
 ## Summary
+For this project, Grace Dai and I wanted to create a device that would help with taking care of plants. Initially, we wanted to use a screen to display the different areas to be monitored (moisture, light and temperature), but we spent a lot of time and couldn't figure out how to get the screens to work. Instead, we used a Neopixel Stick to indicate the soil moisture and temperature levels, and a switch to toggle between the two states.
 
-Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-
-Include a discussion how it will be interactive or responsive to the environment.
+We used two nails as moisture sensors and a light sensor. The two nails are to be placed into soil to measure the moisture, which will be displayed on the Neopixel Stick via blue light; the bar is completely lit if there is enough water, and depletes if there is not enough. The light sensor picks up the amount of light for the surrounding area, and is indicated on the Neopixel Stick via green to yellow light in the same manner.
 
 ## Component Parts
+* Adafruit Feather 32u4 x 1
+* Breadboards x 2
+* Nails x 2
+* Light Sensor x 1
+* Switch x 1 
+* Neopixel Stick x 1
 
-From what pieces did you build your project?
+The input data includes moisture value from the nails and light value from the light sensors, as well as the value of the switch for the Neopixel Stick.
 
-Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
+The output data include the code and the light levels indicated on the Stick.
+
+## Diagram
 
 ## Challenges
+The most challenging part was trying to use a screen to display the monitored levels described above. We tried two screens - the first screen worked initially and was displaying correctly, but suddenly stopped working. Only the backlights for the second screen worked, yet there were no pixels showing up. Due to time constraints, we decided to use a Neopixel Stick instead to display the levels.
 
-A brief discussion of what was hard, challenging, or unexpected about your project.
+The other challenging aspect was wiring everything together - the large amount of wires together quickly became confusing, and when problems arose, we weren't sure where the issue was. Some miswiring and a lack of a resistor led to our moisture sensors to be jumping and spiking when the nails were dry; however, with some help, we were able to fix it.
 
 ## Timeline
+Week 1: Write proposal
+Week 2: Wired up and figured out the code for moisture sensors
+Week 3: Tried to connect screens
+Week 4: Used Neopixel Stick and added a light sensor and switch, figured out the code
+Week 5: Present!
+Completed Work
+Moisture Link to moisture video Light Link to light video
 
-What did you do in each of the past five weeks?
+## References and Links
 
-- Week 1: Write proposal
-- Week 2: 
-- Week 3:
-- Week 4:
-- Week 5: Present!
-
-## Completed Work
-
-Photos and videos of your completed final project!
-
-## References and links
-
-Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
+* http://www.instructables.com/id/Plant-Moisture-Sensor-W-Arduino/ http://gardenbot.org/howTo/soilMoisture/
+* https://www.electronicsweekly.com/blogs/gadget-master/arduino/build-plant-monitor-arduino-2016-09/ 
+* http://www.deviceplus.com/how-tos/arduino-guide/an-arduino-plant-monitoring-watering-device/ 
+* http://www.instructables.com/id/Moisture-Detection-With-Two-Nails/ 
+* https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections 
+* https://www.adafruit.com/product/1426?gclid=EAIaIQobChMI8Mv0tYjf2gIVEcJkCh2h7QqvEAkYCCABEgJX-vD_BwE 
+* https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels 
+* https://www.hackster.io/zanycadencedev/getting-started-with-arduino-and-neopixels-013360 
+* https://www.hackster.io/zanycadencedev/getting-started-with-arduino-and-neopixels-013360
