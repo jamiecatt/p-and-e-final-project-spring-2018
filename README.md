@@ -32,8 +32,9 @@ Week 2: Wired up and figured out the code for moisture sensors
 Week 3: Tried to connect screens
 Week 4: Used Neopixel Stick and added a light sensor and switch, figured out the code
 Week 5: Present!
+
 Completed Work
-Moisture Link to moisture video Light Link to light video
+Link To Photos
 
 ## References and Links
 
