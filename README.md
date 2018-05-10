@@ -34,11 +34,13 @@ The other challenging aspect was wiring everything together - the large amount o
 * Week 4: Used Neopixel Stick and added a light sensor and switch, figured out the code
 * Week 5: Present!
 
-##Completed Work
+## Completed Work
 Light Sensor 
+
 ![alt text](https://github.com/jamiecatt/p-and-e-final-project-spring-2018/blob/master/lightpic.jpg)
 
 Moisture Sensor
+
 ![alt text](https://github.com/jamiecatt/p-and-e-final-project-spring-2018/blob/master/moisturepic.jpg)
 
 ## References and Links
